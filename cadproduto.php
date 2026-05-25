@@ -6,6 +6,15 @@
     <title>Cadatro de produto</title>
 </head>
 <body>
+
+<form action = "pesquisaprodutonome.php" method="POST">
+
+    DIGITE O NOME DO PRODUTO:<br/>
+    <input type = "text" name="cxprodutopesquisa"/>
+    <input type = "submit" value = "Pesquisar"/>
+    
+</form>    
+
     <form action="inserirproduto.php" method="POST">
         Produto:<br/>
         <input type="text" name="cxprod"/><br/>
