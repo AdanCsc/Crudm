@@ -9,7 +9,7 @@
 
 <form action = "pesquisaprodutonome.php" method="POST">
 
-    DIGITE O NOME DO PRODUTO:<br/>
+    Digite o nome do produto:<br/>
     <input type = "text" name="cxprodutopesquisa"/>
     <input type = "submit" value = "Pesquisar"/>
     
